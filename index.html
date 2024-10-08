@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="faicone/.." type="image/x-icon" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa fa-home" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li><a href="#myServices"> services </a></li>
+          <li><a href="#"> skills </a></li>
+          <li><a href="#myPortfolio"> portefolio </a></li>
+          <li><a href="#contactMe"> contact </a></li>
+        </ul>
+      </nav>
+      <div class="sliderPrincipale">
+        <img src="img/header.png" alt="Jene Doe" />
+        <div class="iconsSlider icons">
+          <a href="http://" target="_blank"
+            ><i class="fa fa-facebook" aria-hidden="true"></i
+          ></a>
+          <a href="http://" target="_blank"
+            ><i class="fa fa-linkedin" aria-hidden="true"></i
+          ></a>
+          <a href="http://" target="_blank"
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
+        </div>
+        <div class="textSlider">
+          <span><strong>hello i'm</strong></span>
+          <h1>jane doe</h1>
+          <h2>web developer</h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="myServices">
+        <h2>my services</h2>
+        <h3>what can <span class="txt-mj">i</span> do for you ?</h3>
+        <div class="txMyServicesGrid">
+          <div>
+            <h4>development</h4>
+            <ul>
+              <li><span class="txt-mj">html/css</span></li>
+              <li>java<span class="txt-mj">s</span>cript</li>
+              <li>word<span class="txt-mj">p</span>ress</li>
+              <li>react</li>
+            </ul>
+          </div>
+          <div>
+            <h3><span class="txt-mj">ui/ux</span></h3>
+            <ul>
+              <li>wireframe</li>
+              <li>figma</li>
+              <li>photoshop</li>
+            </ul>
+          </div>
+          <div>
+            <h3><span class="txt-mj">seo/sea</span></h3>
+            <ul>
+              <li><span class="txt-mj">ga4</span></li>
+              <li>marketing</li>
+            </ul>
+          </div>
+          <div>
+            <h3>something <span class="txt-mj">e</span>lse ?</h3>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </div>
+        </div>
+      </section>
+      <section id="myPortfolio">
+        <h2>my portfolio</h2>
+        <h3>my complette projets</h3>
+        <div class="gallerie">
+          <img src="img/portfolio/Eflyer.png" alt="project 1" />
+          <img
+            src="img/portfolio/EShopper-Bootstrap-Shop-Template.png"
+            alt="project 2"
+          />
+          <img
+            src="img/portfolio/Fruitables-Vegetable-Website-Template.png"
+            alt="project 3"
+          />
+          <img
+            src="img/portfolio/Furni-Free-Bootstrap-5-Template-for-Furniture-and-Interior-Design-Websites-by-Untree-co.png"
+            alt="project 4"
+          />
+          <img
+            src="img/portfolio/Labsky-Laboratory-HTML-Website-Template.png"
+            alt="project 5"
+          />
+          <img src="img/portfolio/Ministore.png" alt="project 6" /><img
+            src="img/portfolio/Newsers-Free-HTML-Magazine-Template.png"
+            alt="project 7"
+          />
+          <img
+            src="img/portfolio/Sparlex-Spa-Website-Template.png"
+            alt="project 8"
+          />
+        </div>
+        <div class="text-gallerie">
+          <h4>do you want yours ?</h4>
+          <a href="#contactMe"
+            ><i class="fa fa-envelope-o" aria-hidden="true"></i
+          ></a>
+        </div>
+      </section>
+      <section id="contactMe">
+        <h2>contact <span class="txt-mj">me</span></h2>
+        <form action="newsletterTrait.php" method="post">
+          <h3>subscribe for newsletter</h3>
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="adresse@exemple.com"
+          /><br />
+          <input type="submit" value="subscribe" />
+        </form>
+        <form action="contact.php" method="post">
+          <h3>a question ?</h3>
+          <br />
+          <input type="text" name="name" placeholder="your name" /><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="adresse@exemple.com"
+          /><br />
+          <textarea
+            name="message"
+            placeholder="your message"
+            cols="30"
+            rows="3"
+          ></textarea
+          ><br />
+          <input type="submit" value="send" />
+        </form>
+        <div class="iconsContact icons">
+          <a href="http://" target="_blank"
+            ><i class="fa fa-facebook" aria-hidden="true"></i
+          ></a>
+          <a href="http://" target="_blank"
+            ><i class="fa fa-linkedin" aria-hidden="true"></i
+          ></a>
+          <a href="http://" target="_blank"
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>jane doe</h2>
+      <h3>web developer</h3>
+      <h4>your front, u<span class="txt-mj">i/ux</span> specialist</h4>
+      <address>
+        copyright @<span class="txt-mj">j</span>ane<span class="txt-mj">d</span
+        >oe-<span class="txt-mj">t</span>erms of use
+      </address>
+    </footer>
+  </body>
+</html>
